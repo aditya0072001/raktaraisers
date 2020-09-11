@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "953674360196",
+    "firebase_url": "https://raktaraisers-fcf37.firebaseio.com",
+    "project_id": "raktaraisers-fcf37",
+    "storage_bucket": "raktaraisers-fcf37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953674360196:android:10ef55c053a5f6592da9d1",
+        "android_client_info": {
+          "package_name": "com.hhfc.raktaraisers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953674360196-t0ass34uqema18ft7dhptij434pa5d1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBISHFV12oeAHL8LPcA1J2MzEkezwBaZxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953674360196-t0ass34uqema18ft7dhptij434pa5d1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
