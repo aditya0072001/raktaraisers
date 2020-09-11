@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'package:raktaraisers/pages/give.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,7 +23,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _page = 0;
+  int _page = 1;
   GlobalKey _bottomNavigationKey = GlobalKey();
   @override
   Widget build(BuildContext context) {
@@ -34,10 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-              _page.toString(),
-              style: TextStyle(color: Colors.grey[300]),
-            ),
+            if (_page == 1) Give(),
           ],
         ),
       ),
